@@ -1,0 +1,5 @@
+import os
+
+This_folder = os.path.dirname(os.path.abspath(__file__))
+my_file = os.path.join(This_folder, 'TrainList.txt')
+my_file = os.path.join(This_folder, 'input.txt')
